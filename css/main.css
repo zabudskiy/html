@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    position: relative;
+    height: 100%;
+    background-color: #cfcfcf;
+    font-family: "Lato";
+    font-size: 16px;
+    color: #775b80;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+    h1,h3,h4,h5{
+        font-family: "Raleway";
+        color: #775b80;
+    }
+    h2{
+        font-family: "Raleway";
+        color: #775b80;
+        font-size: 2em;
+        padding: 0 0 30px 0;
+    }
+
+    h6{
+        font-size: 1em;
+        font-family: "Lato";
+        color: #775b80;
+    }
+
+
+    p{
+        margin-bottom: 25px;
+    }
+
+
+    .song{
+        text-align: center;
+        background: #f9e9f5;
+        border: 2px solid #775b80;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    a{
+        color: #967c95;
+    }
+
+    hr {
+        display:block;
+        height:1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .navbar {
+        height: 10%;
+        margin-bottom: 0;
+        border-radius: 0;
+        background-color: #ffd1fe;
+        color: #dddddd;
+        padding: 1% 0;
+        border: 0;
+        font-size: 14px;
+    }
+
+    .navbar-toggle:hover{
+        border-color: #edc1ec;
+        color: #dddddd;
+    }
+
+    .navbar-inverse{
+        background: #ffd1fe;
+        border-color: #f3e2f2;
+    }
+
+
+    .navbar-inverse .navbar-nav li a{
+        color: #a999b0;
+    }
+
+
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+        color: #a999b0;
+        background-color: #ffd1fe;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #999;
+        font-weight: bolder;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .navbar-brand {
+        float: left;
+        min-height: 55px;
+        padding: 0 15px 15px;
+    }
+
+    .carousel-caption{
+        top: 50%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+    }
+
+    .btn{
+        font-size: 16px;
+        color: #ab8ead;
+        padding: 12px 22px;
+        background: #ffd1fe;
+        border:2px solid #FFF;
+    }
+
+
+
+     .dropdown-toggle  {
+        font-size: 14px;
+        color: #ab8ead;
+        padding: 13px;
+        background: #ffd1fe;
+        border:none;
+    }
+
+    .dropdown-toggle:hover {
+        padding: auto;
+        font-size: 14px;
+        color: #ffeffb;
+        background: #ffd1fe;
+    }
+
+    .dropdown-toggle:active {
+    padding: auto;
+    font-size: 14px;
+    color: #ffeffb;
+    background: #ffd1fe;
+    }
+
+    @media (max-width: 900px){
+        .fa{
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .carousel-caption{
+            display: none;
+        }
+        #icon{
+            max-width: 150px;
+            margin: 1% auto;
+        }
+        h2{
+            font-size: 1.7em;
+        }
+    }
+
+    #icon{
+        max-width: 200px;
+        margin: 1% auto;
+    }
+
+    .container{
+        margin: 4% auto;
+    }
+
+    footer{
+        width: 100%;
+        background-color: #b795b6;
+        padding: 5%;
+        color: #FFF;
+    }
+
+    .fa{
+        padding: 15px;
+        font-size: 25px;
+        color:#ffd1fe;
+    }
+    .fa:hover{
+        color: #9b819a;
+        text-decoration: none;
+    }
+
+    .fa:active{
+        color: #eba8f0;
+        text-decoration: none;
+    }
