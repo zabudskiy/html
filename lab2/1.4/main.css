@@ -1,0 +1,49 @@
+.fullwrap {
+    background-color: #7d7b85;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header {
+    background-color: #1aee2b;
+    height: 80px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.warp {
+    height: 400px;
+    background-color: #eba8f0;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+
+}
+
+.main{
+    float: left;
+    width: 40%;
+    height: 85%;
+    background-color: #333e85;
+    padding: 10px 10px 20px 10px;
+    margin: auto;
+
+}
+
+.sidebar {
+    float: right;
+    height: 85%;
+    width: 20%;
+    background-color: #85121c;
+    padding: 10px 10px 20px 10px;
+
+}
+
+.footer {
+    height: 120px;
+    background-color: #138512;
+    margin: 10px 10px 10px 10px;
+}
