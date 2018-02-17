@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.fullwrap {
+    background-color: #7d7b85;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header {
+    /*background-color: #1aee2b;*/
+    /*width: 600px;*/
+    /*height: 100px;*/
+    /*padding: 10px 10px 10px 10px;*/
+    margin: 10px 10px 10px 10px;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Jura', sans-serif;
+
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    /*margin-right: 10px;*/
+    /*margin-bottom: 10px;*/
+    /*margin-left: 15px;*/
+    display: block;
+    margin: 0 auto;
+
+}
+
+.warp {
+    /*height: 400px;*/
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+
+}
+
+.main{
+    /*float: left;*/
+    width: 95%;
+    /*height: 85%;*/
+    background-color: #ffffff;
+    padding: 10px 10px 20px 10px;
+    margin: auto;
+
+}
+
+.footer {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    color: #e8e6ee;
+}
+
+
+
+
+button {
+    background-color: #b76799;
+    border: 2px solid #dcacd3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-radius:8px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #e58dc6;
+    border: 2px solid #ffcef2;
+}
+
+button:active{
+    background-color: #9a5d81;
+    border: 2px solid #ffa7e0;
+
+}
+
+.column_2 {
+    float: left;
+    width: 47%;
+    padding: 10px;
+    margin: auto;
+}
+
+.column_3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+

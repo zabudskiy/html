@@ -1,0 +1,20 @@
+div {
+    width: 400px;
+}
+.photo{
+    float:left;
+}
+
+.parent {
+    width: 340px;
+    min-height: 20px;
+    background: #c8c8c8;
+    clear:both;
+}
+.rows {
+    width: 100px;
+    height: 100px;
+    background: #c791be;
+    margin: 5px;
+    clear:both
+}
