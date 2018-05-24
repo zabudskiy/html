@@ -62,8 +62,6 @@ body{
 }
 
 
-
-
 button {
     background-color: #b76799;
     border: 2px solid #dcacd3;
@@ -107,5 +105,10 @@ button:active{
     content: "";
     display: table;
     clear: both;
+}
+
+p
+{
+
 }
 
