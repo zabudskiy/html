@@ -33,7 +33,6 @@ function runTask_3() {
                "Because I can't forget\n" +
                "Back and forth through my mind\n" +
                "Behind a cigarette\n" +
-
                "And the message coming from my eyes\n" +
                "Says leave it alone";
 
