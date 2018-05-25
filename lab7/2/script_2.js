@@ -46,7 +46,6 @@ function runTask_2() {
 	assertEqualArrays(['E', 'C', 'B'], filterUnique(['13', 'D', '12', '13', 'A', 'E', 'C', '12', '10', 'A', '14', 'D', 'A', '10', '14', 'F', 'F', 'D', '12', 'B']), "Case #12");
 	assertEqualArrays(['13', 'F', 'B', '11'], filterUnique(['A', '13', 'D', '10', 'F', 'C', 'C', 'C', 'B', 'E', 'C', '11', 'A', '12', 'E', '10', '12', 'A', '12', 'D']), "Case #13");
 
-	console.log("\nIt's working :)");
 }
 
 runTask_2();
