@@ -96,6 +96,5 @@ function runTask_4() {
 
 	assertEqualMatrix(getTransposed(getTransposed(matrix1)), matrix1, "Case #6");
 
-	console.log("\nIt's working :)");
 }
 runTask_4();
