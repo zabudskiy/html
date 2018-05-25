@@ -51,7 +51,6 @@ function runTask_3() {
 	assertAnswerInArray(['e'], getTopLetter("8te,fi3ekd0f913ph5z2a3me bqtbpfp61nz705nopvg6rvus.yey,s42inmvo6q3sjeqc9rqm4ywng2"), "Case #14");
 	assertAnswerInArray(['a'], getTopLetter("2adhk3daorqvjz,d49khcm9u1,lc8 umqagwa6 ,rhl.64z2,agnay3nf96lszpdee589c8ng1.gxfc5"), "Case #15");
 
-    console.log("\nIt's working :)");
 }
 
 runTask_3();
