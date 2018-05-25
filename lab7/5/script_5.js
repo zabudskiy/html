@@ -136,7 +136,6 @@ function runTask_5() {
 
 	assertEqualObjects(result5, emptyObject, "Case #5");
 
-	console.log("\nRabotaet :)");
 }
 
 runTask_5();
