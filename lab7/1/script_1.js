@@ -30,7 +30,6 @@ function runTask_1() {
 	assertEqual(1666, calcSum([16, 6, 14, 2, 7, 17, 6, 5, 2, 17, 18, 9, 16, 20, 4, 7, 15, 17]), "Case #12");
 	assertEqual(1820, calcSum([9, 16, 6, 5, 8, 3, 11, 20, 15, 14, 10, 17, 16, 11, 3, 9, 13, 20]), "Case #13");
 
-	console.log("\nIt's working :)");
 }
 
 runTask_1();
