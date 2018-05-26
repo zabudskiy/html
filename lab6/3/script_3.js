@@ -22,7 +22,6 @@ function runTask_3() {
 	assert(getTime(20437) == "05:40:37", "Case '20437'");
 	assert(getTime(40315) == "11:11:55", "Case '40315'");
 	assert(getTime(18392) == "05:06:32", "Case '18392'");
-	console.log("\nRabotaet :)");
 }
 
 runTask_3();
