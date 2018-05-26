@@ -56,7 +56,6 @@ function runTask_6() {
 	assert(getFreeSpace(87, 25, 16) ==  895, "Case #18 (b)");
 	assert(getNumSquares(98, 97, 13) ==  49, "Case #19 (a)");
 	assert(getFreeSpace(98, 97, 13) ==  1225, "Case #19 (b)");
-	console.log("\nRabotaet :)");
 }
 
 runTask_6();
