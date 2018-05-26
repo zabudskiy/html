@@ -17,7 +17,6 @@ function runTask_1() {
 	assert(canBeTriangle(11.4, 0.8, 11)==true, "Third case");
 	assert(canBeTriangle(15, 30, 15)==false, "Fourth case");
 	assert(canBeTriangle(0, 4, 4)==false, "Zero side case`");
-	console.log("\nRabotaet :)");
 }
 
 runTask_1();
