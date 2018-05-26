@@ -36,7 +36,6 @@ function runTask_2() {
 	assert(getMinutes( 47313 ) ==  8, "Case '47313'");
 	assert(getMinutes( 3678 ) ==  1, "Case '3678'");
 	assert(getMinutes( 45695 ) ==  41, "Case '45695'");
-	console.log("\nRabotaet :)");
 }
 
 runTask_2();
