@@ -20,7 +20,6 @@ function runTask_5() {
 	assert(sumDigits(0) == 0, "Case '0'");
 	assert(sumDigits(103) == 4, "Case '103'");
 	assert(sumDigits(188) == 17, "Case '188'");
-	console.log("\nRabotaet :)");
 }
 
 runTask_5();
